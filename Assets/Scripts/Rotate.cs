@@ -5,9 +5,10 @@ using UnityEngine;
 public class Rotate : MonoBehaviour
 {
 
-    public float factor;
-    public float rotationSpeed;
-    public float rotateAroundSpeed;
+    public float factorRotation;
+    public float factorRotateAround;
+    private float rotationSpeed;
+    private float rotateAroundSpeed;
     public Transform target;
   //  public int speed;
 
@@ -22,7 +23,7 @@ public class Rotate : MonoBehaviour
 
     public void SpeedAjustment(float speedAjust){
 
-        rotationSpeed = speedAjust * factor;
-        rotateAroundSpeed = speedAjust * factor;
+        rotationSpeed = speedAjust * factorRotation;
+        rotateAroundSpeed = speedAjust * factorRotateAround;
     }
 }
