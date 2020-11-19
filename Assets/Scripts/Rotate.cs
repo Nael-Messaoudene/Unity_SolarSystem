@@ -5,17 +5,23 @@ using UnityEngine;
 public class Rotate : MonoBehaviour
 {
 
+    public float rotationSpeed;
+    public float rotateAroundSpeed;
     public Transform target;
-    public Transform selfRotateTarget = null;
-    public int speed;
-    public int selfRotateSpeed;
+  //  public int speed;
+
     void Update()
     {
         //turn around something
-        transform.RotateAround(target.transform.position, target.transform.up, speed*Time.deltaTime);
+        transform.RotateAround(target.transform.position, target.transform.up, rotateAroundSpeed*Time.deltaTime);
         
-        //rotate on himself
-        transform.RotateAround(selfRotateTarget.transform.position, selfRotateTarget.transform.up, selfRotateSpeed*Time.deltaTime);
+        transform.Rotate(0,rotationSpeed * Time.deltaTime,0);
 
+    }
+
+    public void SpeedAjustment(float speedAjust){
+
+        rotationSpeed = speedAjust;
+        rotateAroundSpeed = speedAjust * rotateAroundSpeed;
     }
 }
