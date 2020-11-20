@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MVP_Scenes/Menu_final.unity
     guid: 7f5e115ee1722416e8424e1c0907d8a7
+  - enabled: 1
+    path: Assets/Scenes/FINAL_Scenes/MainMenu.unity
+    guid: a49a246d7104745d39d72370c2f0d2b6
+  - enabled: 1
+    path: Assets/Scenes/FINAL_Scenes/SolarSystem.unity
+    guid: 4e1722da92f334f1eada11052c60bc9f
   m_configObjects: {}
