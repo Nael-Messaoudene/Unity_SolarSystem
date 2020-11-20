@@ -77,6 +77,9 @@
      <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\LookCamera.cs" />
      <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\SkyboxChanger.cs" />
      <Compile Include="Assets\Scripts\Menu\FINAL\Menu.cs" />
+     <Compile Include="Assets\Scripts\Camera\ChangeLookAtTarget.cs" />
+     <Compile Include="Assets\Scripts\Camera\LookAtTarget1.cs" />
+     <Compile Include="Assets\Scripts\Info\info.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -667,6 +670,18 @@
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
         <HintPath>/Users/naelmessaoudene/Desktop/DMII1/Unity_SolarSystem/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>/Users/naelmessaoudene/Desktop/DMII1/Unity_SolarSystem/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>/Users/naelmessaoudene/Desktop/DMII1/Unity_SolarSystem/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>/Users/naelmessaoudene/Desktop/DMII1/Unity_SolarSystem/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>/Users/naelmessaoudene/Desktop/DMII1/Unity_SolarSystem/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

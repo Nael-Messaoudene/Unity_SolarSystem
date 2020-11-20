@@ -37,6 +37,7 @@ public class OrbitCamera : MonoBehaviour
 
     public Vector2 defaultRotation = new Vector2(45, 0); //default rotation around the target
 
+ 
     void Start()
     {
         //set camera rotation
@@ -46,6 +47,7 @@ public class OrbitCamera : MonoBehaviour
         if (distance < minZoom)
             distance = minZoom;       
     }
+
 
     void LateUpdate() //LateUpdate moves the camera after moving other objects ( after Update() )
     {
