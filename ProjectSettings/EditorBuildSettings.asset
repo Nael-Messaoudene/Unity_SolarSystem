@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MVP_Scenes/Menu.unity
     guid: b5f15cf399a8146f18a6bfe321a21a31
+  - enabled: 1
+    path: Assets/Scenes/MVP_Scenes/PlanetsScene_final.unity
+    guid: 9a51f5b0eea18405492de70873c1d4e6
+  - enabled: 1
+    path: Assets/Scenes/MVP_Scenes/Menu_final.unity
+    guid: 7f5e115ee1722416e8424e1c0907d8a7
   m_configObjects: {}
